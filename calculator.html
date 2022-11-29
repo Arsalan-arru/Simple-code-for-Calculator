@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<link rel="stylesheet" href="./calculator.css">
+<body>
+    <div class="calci">
+    <input class="input" type="text" id="inputvalues"><br><br>
+    <input class="butt" type="button" onclick="del()" value="C">
+    <input class="butt" type="button" onclick="clearAll()" value="CE">
+    <input type="radio" onclick="ON()" name="#" id="ON">
+    <label for="">ON</label>
+    <input type="radio" onclick="OFF()" name="#" id="OFF">
+    <label for="">OFF</label><br>
+    <input class="butt" id="but1" onclick="display('1')" type="button" value="1">
+    <input class="butt" id="but2" onclick="display('2')" type="button" value="2">
+    <input class="butt" id="but3" onclick="display('3')" type="button" value="3">
+    <input class="butt" id="but+" onclick="display('+')" type="button" value="+"><br>
+    <input class="butt" id="but4" onclick="display('4')" type="button" value="4">
+    <input class="butt" id="but5" onclick="display('5')" type="button" value="5">
+    <input class="butt" id="but6" onclick="display('6')" type="button" value="6">
+    <input class="butt" id="but-" onclick="display('-')" type="button" value="-"><br>
+    <input class="butt" id="but7" onclick="display('7')" type="button" value="7">
+    <input class="butt" id="but8" onclick="display('8')" type="button" value="8">
+    <input class="butt" id="but9" onclick="display('9')" type="button" value="9">
+    <input class="butt" id="but*" onclick="display('*')" type="button" value="*"><br>
+    <input class="butt" id="but0" onclick="display('0')" type="button" value="0">
+    <input class="butt" id="but." onclick="display('.')" type="button" value=".">
+    <input class="butt" id="but/" onclick="display('/')" type="button" value="/">
+    <input class="butt" id="but=" onclick="calcu()" type="button" value="="><br><br>
+    <h1>Philips</h1>
+    </div>
+    <script src="./calculator.js"></script>
+</body>
+</html>
